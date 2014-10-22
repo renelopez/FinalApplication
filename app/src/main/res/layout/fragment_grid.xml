@@ -2,14 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.usuario.finalapplication.ListFragment">
+    tools:context="com.example.usuario.finalapplication.GridFragment">
 
 
-    <ListView
-        android:id="@+id/listForecast"
+    <GridView
+        android:id="@+id/gridForecast"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        />
+        android:numColumns="2" />
 
 </FrameLayout>
